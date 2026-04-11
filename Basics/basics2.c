@@ -79,3 +79,9 @@ int main(){
     ^ (XOR Operator ) gives false to read the string. So we use "%[^\n]s" instead
     of "%s". So to get a line of input with space we can go with scanf("%[^\n]s",str);
 */
+
+
+/*
+    Comments in C
+    Comments can be single-line or multi-line.
+*/
