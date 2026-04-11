@@ -6,12 +6,26 @@
 # • When to USE 
 ==> for loop = Number of iterations is known in advance (e.g., iterating through an array).
     Condition check: Before each iteration.
+        for (initialization; condition; updation) { 
+            // body of for loop
+        }
 ==> while loop = Number of iterations is unknown and dependent on a dynamic condition.
 	Condition check: Before each iteration (entry-controlled).
+        initialization
+        while (condition) {
+            // Body of the loop
+            updation
+        }
 ==> do.. while loop = Loop must execute at least once before the condition is checked
     (e.g., menu prompt).
 	Condition check: After each iteration (exit-controlled).
+        initialization
+        do {
+            // Body of the loop
+            updation
+        } while (condition);
 */
+
 
 // #define _USE_MATH_DEFINES
 #include <stdio.h>
