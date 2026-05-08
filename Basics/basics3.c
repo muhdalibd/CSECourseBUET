@@ -2,8 +2,11 @@
     Variables in C
     A variable in C is a named piece of memory which is used
     to store data and access it whenever required.
+    C is a statically typed language. This means that any variable has
+    an associated type, and this type is known at compilation time.
     In C, variables must have a specific type, which tells the program 
     what kind of data the variable can store.
+
     Declaring (Creating) Variables
     To create a variable, you must specify the type and give the variable a name.
         Syntax
@@ -60,7 +63,7 @@ int main(){
     float gpa = 3.5;
     
     // Finding size of num
-    // printf("%d bytes", sizeof(gpa));
+    // printf("%d bytes", sizeof(gpa));     // 4 Bytes
 
     return 0;
 }

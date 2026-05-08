@@ -96,13 +96,24 @@
 int main(){
     // Implicit Conversion
     int myInt = 9.99;
-    printf("%d\n", myInt);
+    printf("%d\n", myInt);   //  9
+
     float sum1 = 5 / 2;
     printf("%f\n", sum1);    //  2.000000
 
+    
     // Explicit Conversion
     float sum2 = (float) 5 / 2;
     printf("%f\n", sum2);    //  2.500000
+
+    float sum3 = (float) 5.0 / 2;
+    printf("%.2f\n", sum2);    //  2.500000
+
+    float sum4 = (float) 5 / 2.0;
+    printf("%.2f\n", sum2);    //  2.500000
+
+    float sum5 = (float) 5.0 / 2.0;
+    printf("%.2f\n", sum2);    //  2.500000
     
 
     // C Booleans
