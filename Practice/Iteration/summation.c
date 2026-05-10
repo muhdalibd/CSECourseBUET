@@ -52,7 +52,7 @@ int main(){
     int n;
     scanf("%d", &n);
     int theta;
-    scanf("%ld", &theta);
+    scanf("%d", &theta);
 
     double x = (3.1416/180) * theta;
     double value = 0.0;
@@ -61,9 +61,9 @@ int main(){
         for(int j=1; j<=(2*i-1); j++){
             fact *= j;
         }
-        double x = pow(x, 2*i-1);
-        double s = pow(-1, i-1);
-        value += (s*x) / fact;
+        double y = pow(x, 2*i-1);
+        int s = (i % 2 == 0) ? -1 : 1;
+        value += (s*y) / fact;
     }
 
     printf("%ld\n", value);
