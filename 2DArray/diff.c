@@ -17,26 +17,27 @@ int main(){
             scanf("%d", &mat2[i][j]);
         }
     }
-    // initialize sum matrix with zero
+    // initialize diff matrix with zero
     int mat[m][n];
     for(int i=0; i<m; i++){
         for(int j=0; j<n; j++){
             mat[i][j] = 0;
         }
     }
-    // performing sum of two matrix
+    // performing diff of two matrix
     for(int i=0; i<m; i++){
         for(int j=0; j<n; j++){
-            mat[i][j] = mat1[i][j] + mat2[i][j];
+            mat[i][j] = mat1[i][j] - mat2[i][j];
         }
     }
     printf("\n");
-    // showing output of sum matrix
+    // showing output of diff matrix
     for(int i=0; i<m; i++){
         for(int j=0; j<n; j++){
             printf("%d ", mat[i][j]);
         }
         printf("\n");
     }
+
     return 0;
 }

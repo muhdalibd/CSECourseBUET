@@ -1,6 +1,14 @@
 #include <stdio.h>
 #include <string.h>
 
+/*
+    Strings in C
+    A string in C is an array of characters terminated by a null character '\0'.
+    1. The null character '\0' marks the end of the string.
+    2. C does not have a built-in string data type.
+    3. Strings are implemented using arrays of char.
+*/
+
 int main(){
     /********************************************************
         String in C Programming <--> College Wallah

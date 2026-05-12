@@ -1,0 +1,7 @@
+Rahim,200808001,rahim@ipe.buet.ac.bd
+Karim,200808150,karim@gmail.com
+Sadia,200808050,sadia@ipe.buet.ac.bd
+Nayeem,201208099,nayeem@ipe.buet.ac.bd
+Mim,200808120,mim@yahoo.com
+Arif,200808110,arif@ipe.buet.ac.bd
+Alif,200808090,alif@ipe.buet.ac.bd

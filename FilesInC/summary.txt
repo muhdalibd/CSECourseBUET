@@ -1,0 +1,5 @@
+Total Students: 7
+Valid Records: 5
+Invalid Records: 2
+Valid Percentage: 71.43%
+Invalid Percentage: 28.57%

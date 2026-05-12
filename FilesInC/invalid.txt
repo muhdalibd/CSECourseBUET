@@ -1,0 +1,2 @@
+Karim,200808150,karim@gmail.com -> Invalid Email and Invalid ID
+Mim,200808120,mim@yahoo.com -> Invalid Email
